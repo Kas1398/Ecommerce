@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://kass-ecommerce.netlify.app/",
+    baseURL: "https://kasecommerce.onrender.com/",
 });
 
 export default instance;

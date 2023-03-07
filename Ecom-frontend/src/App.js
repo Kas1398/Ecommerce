@@ -22,7 +22,7 @@ function App() {
     const user = useSelector((state) => state.user);
     const dispatch = useDispatch();
     useEffect(() => {
-        const socket = io("https://kass-ecommerce.netlify.app/");
+        const socket = io("https://kasecommerce.onrender.com/");
         socket.off("notification").on("notification", (msgObj, user_id) => {
             // logic for notification
             if (user_id === user._id) {
