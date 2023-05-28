@@ -27,6 +27,9 @@ app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
 app.use('/images', imageRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 
 app.post('/create-payment', async (req, res) => {
   const { amount } = req.body;
