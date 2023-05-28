@@ -2,14 +2,10 @@ const cloudinary = require('cloudinary');
 const router = require('express').Router();
 require('dotenv').config();
 
-const CLOUD_NAME = "djioc3wq4"
-const CLOUD_API_KEY = "985791875161512"
-const CLOUD_API_SECRET = "q1vFsJXThlgaz5RAy8RDZ8F4yt0"
-
 cloudinary.config({
-  cloud_name: CLOUD_NAME,
-  api_key: CLOUD_API_KEY,
-  api_secret: CLOUD_API_SECRET
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.CLOUD_API_KEY,
+  api_secret: process.env.CLOUD_API_SECRET
 })
 
 
