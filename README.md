@@ -1,0 +1,1 @@
+# Simplify your shopping experience. Browse, search, and purchase a wide range of products with ease. Enjoy secure payments and fast delivery for all your online shopping needs
