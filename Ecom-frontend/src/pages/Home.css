@@ -28,7 +28,27 @@ img.card-img-top.product-preview-img {
 }
 
 .green-tag-sale img {
-    max-width: 1200px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .green-tag-sale img {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .green-tag-sale img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .green-tag-sale img {
+        max-width: 70%;
+    }
 }
