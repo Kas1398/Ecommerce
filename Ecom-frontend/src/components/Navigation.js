@@ -33,7 +33,7 @@ function Navigation() {
         <Navbar bg="light" expand="lg">
             <Container>
                 <LinkContainer to="/">
-                    <Navbar.Brand>TopShop</Navbar.Brand>
+                    <Navbar.Brand className="shop-title">KasSh<span className="unique-letter">o</span>p</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

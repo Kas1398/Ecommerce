@@ -3,6 +3,7 @@ import { Container, Nav, Tab, Col, Row } from "react-bootstrap";
 import ClientsAdminPage from "../components/ClientsAdminPage";
 import DashboardProducts from "../components/DashboardProducts";
 import OrdersAdminPage from "../components/OrdersAdminPage";
+
 function AdminDashboard() {
     return (
         <Container>
